@@ -55,8 +55,4 @@ systemctl daemon-reload
 systemctl start gitopiad
 systemctl enable gitopiad
 journalctl -u gitopiad -f
-#to exit from journal prec CTRL+C
-
-
-
-
+#to exit from journalctl press CTRL+C
