@@ -1,4 +1,4 @@
-```Update server```
+**1. Update you server**
 
-sudo apt update && sudo apt upgrade -y
+``sudo apt update && sudo apt upgrade -y``
 
