@@ -1,3 +1,3 @@
-1. Update server
+```Update server```
 sudo apt update && sudo apt upgrade -y
 
