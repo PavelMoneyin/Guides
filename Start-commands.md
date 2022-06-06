@@ -1,14 +1,14 @@
 **Commands which you should input after receiving clear server**
 
-```sudo apt update && sudo apt upgrade -y```
+```sudo apt update && sudo apt upgrade -y
 
-```sudo apt install make clang pkg-config libssl-dev libclang-dev build-essential git curl ntp jq llvm tmux htop screen```
+```sudo apt install make clang pkg-config libssl-dev libclang-dev build-essential git curl ntp jq llvm tmux htop screen
 
 **Installation Goland 1.18.1**
 
-`wget https://golang.org/dl/go1.18.1.linux-amd64.tar.gz`
+```wget https://golang.org/dl/go1.18.1.linux-amd64.tar.gz
 
-`sudo tar -C /usr/local -xzf go1.18.1.linux-amd64.tar.gz`
+```sudo tar -C /usr/local -xzf go1.18.1.linux-amd64.tar.gz
 
 ```export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
@@ -17,4 +17,4 @@ export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 EOF
 source ~/.profile
 go version
-rm -rf go1.18.1.linux-amd64.tar.gz```
+rm -rf go1.18.1.linux-amd64.tar.gz
