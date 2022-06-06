@@ -1,4 +1,4 @@
-**Commands which you should input after receiving clear server
+**Commands which you should input after receiving clear server**
 
 ```sudo apt update && sudo apt upgrade -y```
 
