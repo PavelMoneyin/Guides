@@ -1,6 +1,6 @@
-########Commands which you should input after receiving clear server########
-sudo apt update && sudo apt upgrade -y 
-sudo apt install make clang pkg-config libssl-dev libclang-dev build-essential git curl ntp jq llvm tmux htop screen
+**Commands which you should input after receiving clear server**
+`sudo apt update && sudo apt upgrade -y`
+`sudo apt install make clang pkg-config libssl-dev libclang-dev build-essential git curl ntp jq llvm tmux htop screen`
 
 #########Installation Goland 1.18.1########
 wget https://golang.org/dl/go1.18.1.linux-amd64.tar.gz
