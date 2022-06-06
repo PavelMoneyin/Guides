@@ -10,9 +10,8 @@
 
 `sudo tar -C /usr/local -xzf go1.18.1.linux-amd64.tar.gz`
 
-`export GOROOT=/usr/local/go`
-
-`export GOPATH=$HOME/go`
+```export GOROOT=/usr/local/go
+export GOPATH=$HOME/go```
 
 `export GO111MODULE=on`
 
