@@ -18,9 +18,12 @@
 
 `export GO111MODULE=on`
 
-export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
-EOF
-source ~/.profile
-go version
+`export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin` 
 
-rm -rf go1.18.1.linux-amd64.tar.gz
+`EOF`
+
+`source ~/.profile`
+
+`go version`
+
+`rm -rf go1.18.1.linux-amd64.tar.gz`
