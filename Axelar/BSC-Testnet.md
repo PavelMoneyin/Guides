@@ -50,7 +50,7 @@ nano config.toml
 ```
 Inside the ``config.toml`` found line ``HTTPHost = "127.0.0.1"`` and change IP from ``127.0.0.1`` on your IP address.
 
-Scroll down delete following lines:
+Scroll down and delete following lines:
 ```
 [Node.LogConfig]
 FileRoot = ""
