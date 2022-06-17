@@ -1,4 +1,4 @@
-**You need server with following requieremnts**
+**You need server with following requierements**
 
 2CPU/8GBRAM/200GB SSD
 
