@@ -38,8 +38,18 @@ make geth
 You can download the pre-build binaries from [release page](https://github.com/bnb-chain/bsc/releases/latest) or follow the instructions bellow
 ```
 wget https://github.com/bnb-chain/bsc/releases/download/v1.1.11/geth_linux
+```
+#for Testnet
+```
 wget https://github.com/bnb-chain/bsc/releases/download/v1.1.11/testnet.zip
 unzip testnet.zip
+```
+#for Mainet
+```
+wget https://github.com/bnb-chain/bsc/releases/download/v1.1.11/mainnet.zip
+unzip mainnet.zip
+```
+```
 mv geth_linux /usr/bin/geth
 chmod +x /usr/bin/geth
 rm -rf testnet.zip
@@ -68,7 +78,7 @@ geth --datadir node init genesis.json
 ```
 tee /etc/systemd/system/bscd.service > /dev/null <<EOF
 [Unit]
-Description=BSC Testnet
+Description=BSC
 After=network-online.target
 [Service]
 User=root
@@ -102,7 +112,14 @@ Axelar Network will be connecting to the EVM compatible ``Binance``, so your rpc
 
 ``http://IP:PORT``
 
+#for Testnet
+
 Example: ``http://5.168.135.185:8575``
+
+
+#for Mainnet
+
+Example: ``http://5.168.135.185:8545``
 
 
 
