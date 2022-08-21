@@ -175,6 +175,9 @@ grep 'version =' /root/sui/crates/sui/Cargo.toml -m 1
 ```
 # 9. Deleting a node
 ```
+systemctl stop suid
+```
+```
 rm -rf /suidb
 ```
 ```
