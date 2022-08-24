@@ -155,9 +155,6 @@ cargo build --release -p sui-node
 cp target/release/sui-node /usr/bin
 ```
 ```
-сd
-```
-```
 systemctl restart suid
 ```
 ```
